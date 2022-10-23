@@ -1,6 +1,7 @@
 .text {
   color: rgb(136, 68, 44);
   font-size: 25px;
+  font-family: "Kanit", sans-serif;
 }
 
 .text {
@@ -23,4 +24,30 @@
 
 .carousel {
   max-width: 10%;
+}
+
+.container__card_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card_:hover {
+  cursor: pointer;
+  background-color: aqua;
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 30px;
+  box-shadow: 1px 4px 5px 3px rgb(174, 174, 174);
+}
+
+@media only screen and (max-width: 1000px) {
+  .container__card_1 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
+  .text {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
 }/*# sourceMappingURL=StyleScss.css.map */
